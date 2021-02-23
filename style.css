@@ -1,0 +1,27 @@
+body{
+  text-align:center;
+  }
+#s1{
+background:linear-gradient(#f50add 0%,#0ddbd8 100%);  
+}
+#s2{
+    background: linear-gradient(#ff00ea 0%,#a600ff 100%)
+}
+ul{
+    position:fixed;
+    top:10px;
+    z-index:10;
+    left:350px;
+    list-style:none;
+    cursor:pointer;
+}
+list{
+    float:left;
+    padding-left:10px;
+    padding-right:10px;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+list:hover{
+    background:linear-gradient(#00ffea 0%,#1500ff 100%);
+}
